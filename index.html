@@ -137,7 +137,7 @@
                             <div class="border-b border-sage/30 pb-4">
                                 <p class="text-sm font-medium text-warmBrown mb-1">Date & Time</p>
                                 <p class="text-lg">Saturday, November 22, 2025</p>
-                                <p class="text-lg">10:00 – 11:00 AM (Mexico City Time)</p>
+                                <p class="text-lg">10:00 – 11:00 AM Central Time</p>
                             </div>
 
                             <div class="border-b border-sage/30 pb-4">
@@ -337,7 +337,7 @@
     <section class="px-6 md:px-12 lg:px-24 py-16 bg-warmBrown text-cream">
         <div class="max-w-4xl mx-auto text-center">
             <h3 class="heading-font text-3xl md:text-4xl font-semibold mb-6">
-                Saturday, November 22, 2025 · 10:00 AM Mexico City Time
+                Saturday, November 22, 2025 · 10:00 AM Central Time
             </h3>
             <p class="text-xl md:text-2xl font-light mb-8">
                 Don't miss your chance to receive the exclusive live attendee gift
@@ -407,7 +407,7 @@
                             <div class="border-b border-sage/30 pb-4">
                                 <p class="text-sm font-medium text-warmBrown mb-1">Date & Time</p>
                                 <p class="text-lg">Saturday, November 22, 2025</p>
-                                <p class="text-lg">10:00 – 11:00 AM (Mexico City Time)</p>
+                                <p class="text-lg">10:00 – 11:00 AM Central Time</p>
                             </div>
 
                             <div class="border-b border-sage/30 pb-4">
@@ -515,7 +515,7 @@
                 </div>
                 <div class="flex">
                     <span class="font-medium w-32 text-warmBrown">Time:</span>
-                    <span>10:00 – 11:00 AM (Mexico City Time)</span>
+                    <span>10:00 – 11:00 AM Central Time</span>
                 </div>
                 <div class="flex">
                     <span class="font-medium w-32 text-warmBrown">Format:</span>
@@ -555,7 +555,7 @@
 
         // Countdown Timer
         function initCountdown() {
-            const webinarDate = new Date('November 22, 2025 10:00:00 GMT-0600').getTime();
+            const webinarDate = new Date('November 22, 2025 10:00:00 CST').getTime();
 
             function updateCountdown() {
                 const now = new Date().getTime();
@@ -591,11 +591,11 @@
             const eventDescription = 'A live activation to release repeating patterns, reclaim inner alignment, and unlock the message you\'re meant to share with the world.\\n\\nJoin via Google Meet: https://meet.google.com/wuv-kjzc-fhj\\nOr dial: +52 55 8421 0898 PIN: 143 528 503 0211#';
             const eventLocation = 'https://meet.google.com/wuv-kjzc-fhj';
 
-            // Date: Saturday, November 22, 2025, 10:00 AM - 11:00 AM Mexico City Time (CST)
+            // Date: Saturday, November 22, 2025, 10:00 AM - 11:00 AM Central Time (CST)
             // CST is UTC-6
             const startDate = '20251122T100000';
             const endDate = '20251122T110000';
-            const timezone = 'America/Mexico_City';
+            const timezone = 'America/Chicago';
 
             // Generate .ics file content
             const icsContent = [
@@ -655,7 +655,7 @@
                     phone: form.querySelector('[name="phone"]').value,
                     timestamp: new Date().toISOString(),
                     webinar_date: 'Saturday, November 22, 2025',
-                    webinar_time: '10:00 – 11:00 AM (Mexico City Time)',
+                    webinar_time: '10:00 – 11:00 AM Central Time',
                     google_meet_link: 'https://meet.google.com/wuv-kjzc-fhj'
                 };
 
